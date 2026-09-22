@@ -1,16 +1,16 @@
 :root {
-  --bg-primary: #081710;
-  --bg-secondary: #0d1d18;
-  --bg-panel: #0f201b;
-  --bg-card: #12251f;
-  --bg-card-soft: #17342d;
-  --border: rgba(126, 255, 196, 0.2);
-  --accent: #7ef7c8;
-  --accent-strong: #4fe0a8;
-  --text: #ecfff9;
-  --text-soft: #cfe8df;
-  --muted: #93b9af;
-  --shadow: rgba(4, 13, 10, 0.7);
+  --bg-primary: #0f1e38;
+  --bg-secondary: #142642;
+  --bg-panel: #172b4a;
+  --bg-card: #1b3152;
+  --bg-card-soft: #223b61;
+  --border: rgba(142, 192, 255, 0.24);
+  --accent: #8ec0ff;
+  --accent-strong: #5b9cf0;
+  --text: #eef4ff;
+  --text-soft: #cfdbef;
+  --muted: #93a6c4;
+  --shadow: rgba(5, 12, 28, 0.6);
   --font-body: 'Inter', sans-serif;
   --font-code: 'JetBrains Mono', monospace;
   --radius: 18px;
@@ -28,8 +28,8 @@ body {
   margin: 0;
   padding: 32px 18px;
   background:
-    radial-gradient(circle at 20% 0%, rgba(126, 247, 200, 0.14), transparent 25%),
-    linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 45%, #06130f 100%);
+    radial-gradient(circle at 20% 0%, rgba(142, 192, 255, 0.14), transparent 25%),
+    linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 45%, #0c1830 100%);
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -57,7 +57,7 @@ h3 {
 .page-shell {
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(9, 17, 14, 0.8);
+  background: rgba(14, 28, 52, 0.8);
   border: 1px solid var(--border);
   border-radius: 24px;
   overflow: hidden;
@@ -67,7 +67,7 @@ h3 {
 .site-header {
   position: relative;
   padding: 28px 28px 20px;
-  background: linear-gradient(135deg, rgba(126, 247, 200, 0.08), transparent 30%), rgba(15, 25, 21, 0.95);
+  background: linear-gradient(135deg, rgba(142, 192, 255, 0.08), transparent 30%), rgba(22, 40, 70, 0.95);
   border-bottom: 1px solid var(--border);
 }
 
@@ -79,7 +79,7 @@ h3 {
   padding: 7px 12px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(126, 247, 200, 0.04);
+  background: rgba(142, 192, 255, 0.04);
   color: var(--text-soft);
   font-family: var(--font-code);
   font-size: 0.74rem;
@@ -92,7 +92,7 @@ h3 {
   height: 10px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 12px rgba(126, 247, 200, 0.9);
+  box-shadow: 0 0 12px rgba(142, 192, 255, 0.9);
 }
 
 .hero {
@@ -168,7 +168,7 @@ h1 {
   border: 1px solid var(--border);
   border-radius: 999px;
   color: var(--text);
-  background: rgba(126, 247, 200, 0.04);
+  background: rgba(142, 192, 255, 0.04);
   font-family: var(--font-code);
   font-size: 0.78rem;
   text-decoration: none;
@@ -178,12 +178,12 @@ h1 {
 .hero-links a:hover,
 .hero-links a:focus-visible {
   transform: translateY(-2px);
-  border-color: rgba(126, 247, 200, 0.5);
-  box-shadow: 0 0 0 3px rgba(126, 247, 200, 0.08);
+  border-color: rgba(142, 192, 255, 0.5);
+  box-shadow: 0 0 0 3px rgba(142, 192, 255, 0.08);
 }
 
 #menu {
-  background: rgba(12, 24, 20, 0.98);
+  background: rgba(19, 36, 64, 0.98);
   border-bottom: 1px solid var(--border);
 }
 
@@ -216,15 +216,15 @@ h1 {
 #menu a:hover,
 #menu a:focus-visible {
   color: var(--accent);
-  background: rgba(126, 247, 200, 0.04);
-  border-color: rgba(126, 247, 200, 0.35);
+  background: rgba(142, 192, 255, 0.04);
+  border-color: rgba(142, 192, 255, 0.35);
 }
 
 .resume-main {
   padding: 24px 22px 22px;
   background:
-    linear-gradient(180deg, rgba(126, 247, 200, 0.03), transparent 26%),
-    rgba(8, 17, 14, 0.9);
+    linear-gradient(180deg, rgba(142, 192, 255, 0.03), transparent 26%),
+    rgba(14, 28, 52, 0.9);
 }
 
 .resume-layout {
@@ -245,7 +245,7 @@ h1 {
   padding: 22px 20px 20px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(18, 36, 31, 0.95), rgba(11, 18, 15, 0.96));
+  background: linear-gradient(180deg, rgba(27, 48, 82, 0.95), rgba(18, 34, 60, 0.96));
   overflow: hidden;
 }
 
@@ -255,7 +255,7 @@ h1 {
   inset: 0 auto auto 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, rgba(126, 247, 200, 0.7), transparent 65%);
+  background: linear-gradient(90deg, rgba(142, 192, 255, 0.7), transparent 65%);
 }
 
 h2 {
@@ -330,9 +330,9 @@ em::after {
   display: inline-flex;
   align-items: center;
   padding: 8px 10px;
-  border: 1px solid rgba(126, 247, 200, 0.22);
+  border: 1px solid rgba(142, 192, 255, 0.22);
   border-radius: 999px;
-  background: rgba(126, 247, 200, 0.04);
+  background: rgba(142, 192, 255, 0.04);
   color: var(--text);
   font-size: 0.78rem;
 }
@@ -376,7 +376,7 @@ em::after {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(180deg, rgba(126, 247, 200, 0.7), rgba(126, 247, 200, 0.08));
+  background: linear-gradient(180deg, rgba(142, 192, 255, 0.7), rgba(142, 192, 255, 0.08));
 }
 
 .timeline article {
@@ -385,7 +385,7 @@ em::after {
   margin-bottom: 18px;
   border: 1px solid var(--border);
   border-radius: 14px;
-  background: rgba(18, 36, 31, 0.56);
+  background: rgba(27, 48, 82, 0.56);
 }
 
 .timeline article:last-child {
@@ -400,7 +400,7 @@ em::after {
   height: 14px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 12px rgba(126, 247, 200, 0.85);
+  box-shadow: 0 0 12px rgba(142, 192, 255, 0.85);
 }
 
 .timeline article p,
@@ -432,7 +432,7 @@ em::after {
   padding: 16px;
   border: 1px solid var(--border);
   border-radius: 14px;
-  background: rgba(18, 36, 31, 0.56);
+  background: rgba(27, 48, 82, 0.56);
 }
 
 .course-card:first-of-type {
@@ -448,18 +448,18 @@ em::after {
   padding: 10px 12px;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: rgba(126, 247, 200, 0.03);
+  background: rgba(142, 192, 255, 0.03);
 }
 
 .project-card {
   padding: 16px;
   border: 1px solid var(--border);
   border-radius: 14px;
-  background: rgba(18, 36, 31, 0.56);
+  background: rgba(27, 48, 82, 0.56);
 }
 
 .contact-panel {
-  background: linear-gradient(180deg, rgba(18, 36, 31, 0.95), rgba(11, 18, 15, 1));
+  background: linear-gradient(180deg, rgba(27, 48, 82, 0.95), rgba(18, 34, 60, 1));
 }
 
 .contact-list {
@@ -494,7 +494,7 @@ em::after {
 .contact-list a:focus-visible,
 .back-top a:hover,
 .back-top a:focus-visible {
-  border-bottom-color: rgba(126, 247, 200, 0.7);
+  border-bottom-color: rgba(142, 192, 255, 0.7);
 }
 
 .back-top {
@@ -507,13 +507,13 @@ section:target {
 
 @keyframes highlight {
   0% {
-    box-shadow: 0 0 0 rgba(126, 247, 200, 0);
+    box-shadow: 0 0 0 rgba(142, 192, 255, 0);
   }
   30% {
-    box-shadow: 0 0 0 3px rgba(126, 247, 200, 0.1);
+    box-shadow: 0 0 0 3px rgba(142, 192, 255, 0.1);
   }
   100% {
-    box-shadow: 0 0 0 rgba(126, 247, 200, 0);
+    box-shadow: 0 0 0 rgba(142, 192, 255, 0);
   }
 }
 
