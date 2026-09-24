@@ -37,6 +37,8 @@ mar/2025 – set/2025
 
 Atendimento ao cliente e auxílio no processo de vendas
 Utilização de sistema comercial e organização de produtos
+
+
 🏛️ Câmara Municipal de Goiânia (OSCEIA) — Jovem Aprendiz
 
 mai/2023 – mai/2024
