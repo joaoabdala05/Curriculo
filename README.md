@@ -29,6 +29,8 @@ Padronização e configuração de equipamentos conforme os padrões tecnológic
 Acompanhamento de garantia, substituição e manutenção de equipamentos junto a fornecedores
 Registro, monitoramento e encerramento de chamados, mantendo informações técnicas e administrativas atualizadas
 Interface entre usuários, equipe técnica e fornecedores
+
+
 🛒 Imperial Ferramentas — Consultor de Vendas Júnior
 
 mar/2025 – set/2025
