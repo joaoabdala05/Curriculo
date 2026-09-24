@@ -40,20 +40,32 @@ Utilização de sistema comercial e organização de produtos
 mai/2023 – mai/2024
 
 Almoxarifado, arquivo e atividades administrativas de escritório
+
+
 🎓 Formação acadêmica
 Curso	Instituição	Período
 Tecnologia em Análise e Desenvolvimento de Sistemas	Faculdade SENAI FATESG	2025 – 2027 (cursando)
 Ensino Médio	—	Completo
 📜 Cursos e certificações
+
 Curso	Instituição	Carga horária	Data
+
 🤖 Bootcamp Bradesco – GenAI, Dados & Cyber	DIO	52h	jun/2026
+
 ☁️ AWS Student Builder Group GO — Governança de Dados, IA Generativa, Amazon Bedrock, AWS Lambda	Amazon Web Services	4h	set/2026
+
 📑 Gestão e Fiscalização de Contratos (nota 100)	Escola de Governo de Goiás	20h	set/2026
+
 ⚖️ Curso Básico de Licitações e Contratos — Lei nº 14.133/2021 (nota 90)	Escola de Governo de Goiás	20h	set/2026
+
 🚚 Sistema de Logística de Goiás – SISLOG 2.0 (nota 90)	Escola de Governo de Goiás	20h	ago/2026
+
 🚀 FIAP Reboot Experience	FIAP	4h	ago/2026
+
 🎤 2º Congresso de Ensino, Pesquisa e Extensão	SENAI FATESG	12h	2026
+
 🗂️ Rotinas Administrativas e Informática Básica	OSCEIA	50h	—
+
 🚀 Projetos
 
 Projetos acadêmicos em Java com Programação Orientada a Objetos e integração com bancos de dados, versionados no GitHub e desenvolvidos no IntelliJ IDEA e NetBeans.
@@ -64,6 +76,7 @@ Projetos acadêmicos em Java com Programação Orientada a Objetos e integraçã
 Idioma	Nível
 🇧🇷 Português	Nativo
 🇺🇸 Inglês	Básico
+
 📂 Sobre este repositório
 
 Este repositório contém meu currículo online, um site estático em HTML e CSS publicado com GitHub Pages.
